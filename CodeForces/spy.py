@@ -7,11 +7,11 @@ for i in range(n):
     if l[0] != l[1]:
 
         if l[1] == l[-1]:
-            print(0)
+            print(1)
             continue
 
     for j in range (1,len(l)):
 
         if l[j - 1] != l[j]:
-            print(j)
+            print(j+1)
             break
